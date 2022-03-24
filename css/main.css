@@ -540,6 +540,11 @@ body{
     background-size: cover;
     background-position: center;
 }
+.equipo{
+    background-image: url(../img/equipo.png);
+    background-size: cover;
+    background-position: center;
+}
 .corresponsales-circle{
     width: 100%;
     height: 0;
