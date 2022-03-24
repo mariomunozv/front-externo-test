@@ -15,36 +15,88 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <section class="header">
-            <div class="container align-items-end d-flex justify-content-between">
+            <div class="container header-container align-items-end d-flex justify-content-between">
                 <img src="img/logo.svg">
-                <a href="" class="btn text-uppercase btn-primary pull-right">AGENCIA MIVOZ</a>
+                <div class="d-flex header-actions">
+                    <div class="menu d-flex"> 
+                        <a id="hamburger-icon" href="#" class="open-close-btn"><span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <div class="pt-10 ml-10">
+                            Menú
+                        </div>
+                    </div>
+                    <a href="" class="btn text-uppercase btn-primary pull-right">AGENCIA MIVOZ</a>
+                </div>
             </div>
-            <div class="container nav d-flex justify-content-between mt-50">
-                <a href="">Nuestros medios</a>
-                <a href="">Propósito</a>
-                <a href="">Audiencia</a>
-                <a href="">Corresponsales</a>
-                <a href="">Alianzas</a>
-                <a href="">Equipo</a>
-                <a href="">Comercial</a>
+            <div class="nav-switch">
+                <div class="container nav d-flex justify-content-between mt-50">
+                    <a href="">Nuestros medios</a>
+                    <a href="">Propósito</a>
+                    <a href="">Audiencia</a>
+                    <a href="">Corresponsales</a>
+                    <a href="">Alianzas</a>
+                    <a href="">Equipo</a>
+                    <a href="">Comercial</a>
+                </div>
             </div>
         </section>
-        <section class="bg-blue pt-30 pb-30">
+        <section class="bg-blue pt-20 pb-20">
             <div class="container text-center">
                 <p class="mb-0 fs-22"><b>MIVOZ</b>, la red de medios regionales de Chile. Buenas conversaciones, buenos futuros</p>
             </div>
         </section>
         <section class="bg-dark pt-50 pb-50">
             <div class="container text-center">
-                <h1 class="mb-0"><span class="color-green">14 MEDIOS DIGITALES</span> EN 13 REGIONES</h1>
+                <h1 class="mb-50"><span class="color-green">14 MEDIOS DIGITALES</span> EN 13 REGIONES</h1>
             </div>
             <div class="container">
-
+                <div class="medios mb-50">
+                    <div>
+                        <div class="col-12">
+                            <p class="text-white text-center">Arica y Parinacota</p>
+                            <img class="img-fluid" src="img/ElNortero.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-12">
+                            <p class="text-white text-center">Antofagasta</p>
+                            <img class="img-fluid" src="img/ElMorrocotudo.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-12">
+                            <p class="text-white text-center">Coquimbo</p>
+                            <img class="img-fluid" src="img/ElObservatodo.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-12">
+                            <p class="text-white text-center">Arica y Parinacota</p>
+                            <img class="img-fluid" src="img/ElNortero.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-12">
+                            <p class="text-white text-center">Arica y Parinacota</p>
+                            <img class="img-fluid" src="img/ElNortero.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-12">
+                            <p class="text-white text-center">Arica y Parinacota</p>
+                            <img class="img-fluid" src="img/ElNortero.png">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="arrow center">
@@ -54,10 +106,29 @@
         </section>
         <section class="pt-30 pb-50">
             <div class="container">
-                <h2 class="mb-0 color-black text-uppercase">Contenidos destacados</h2>
+                <h2 class="mb-50 color-black text-uppercase">Contenidos destacados</h2>
             </div>
             <div class="container">
-
+                <div class="contenidos-destacados mb-50">
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/contenido1.png"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/contenido2.png"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/contenido3.png"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/contenido1.png"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/contenido1.png"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/contenido1.png"></div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="bg-dark pt-50 pb-50">
@@ -66,7 +137,7 @@
                     <div class="col-md-4">
                         <h1 class="mb-30 text-uppercase color-green">Propósito y visión</h1>
                         <h3 class="text-white mb-50">Buenas conversaciones, buenos futuros</h3>
-                        <img class="dialog-boxes" src="img/dialog-boxes.svg">
+                        <img class="dialog-boxes mobile-none" src="img/dialog-boxes.svg">
                     </div>
                     <div class="col-md-7 offset-md-1">
                         <div class="video-responsive">
@@ -77,9 +148,9 @@
             </div>
         </section>
         <section class="background-bicolor">
-            <div class="container pt-100 pb-100">
+            <div class="container proposito-vision pt-100 pb-100">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 proposito">
                         <div class="col-md-10">
                             <div class="d-flex align-items-center mb-20">
                                 <img class="icon-min" src="img/proposito.svg">
@@ -88,11 +159,11 @@
                             <p>Existimos para contribuir a la calidad de las conversaciones, la visibilización de las regiones y sus voces, el cuidado del bien común y el futuro de los territorios del país.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 vision">
                         <div class="col-md-10">
                             <div class="d-flex align-items-center mb-20">
                                 <img class="icon-min" src="img/vision.svg">
-                                <h3 class="mb-0 ml-15">Propósito</h3>
+                                <h3 class="mb-0 ml-15">Visión</h3>
                             </div>
                             <p>Ser la voz de las regiones para incidir en su necesaria preponderancia en el debate nacional, lo hacemos inspirados en que las buenas conversaciones nos van a traer buenos futuros para Chile.</p>
                         </div>
@@ -110,13 +181,13 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h4 class="text-white mb-40">Datos de audiencia corresponden a la red completa de nuestros 14 medios digitales</h4>
-                        <div class="row">
-                            <div class="col-md-4 text-center">
+                        <div class="row mb-mobile">
+                            <div class="col-md-4 col-6 text-center">
                                 <img class="img-fluid ico-100 mb-20" src="img/audiencia-usuarios.svg">
                                 <h3 class="text-white">+ 2 Millones</h3>
                                 <p class="text-white">Usuarios</p>
                             </div>
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-4 col-6 text-center">
                                 <img class="img-fluid ico-100 mb-20" src="img/audiencia-paginas.svg">
                                 <h3 class="text-white">4.4 Millones</h3>
                                 <p class="text-white">Páginas vistas</p>
@@ -126,17 +197,17 @@
                     <div class="col-md-6">
                         <h4 class="text-white mb-40">Número de seguidores de RRSS consolidada de todos nuestros medios</h4>
                         <div class="row">
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-4 col-6 text-center">
                                 <img class="img-fluid ico-100 mb-20" src="img/audiencia-twitter.svg">
                                 <h3 class="text-white">488.604</h3>
                                 <p class="text-white">Seguidores</p>
                             </div>
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-4 col-6 text-center">
                                 <img class="img-fluid ico-100 mb-20" src="img/audiencia-fb.svg">
                                 <h3 class="text-white">384.439</h3>
                                 <p class="text-white">Seguidores</p>
                             </div>
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-4 col-6 text-center">
                                 <img class="img-fluid ico-100 mb-20" src="img/audiencia-insta.svg">
                                 <h3 class="text-white">95.003</h3>
                                 <p class="text-white">Seguidores</p>
@@ -151,8 +222,8 @@
                 <h2 class="mb-50 color-black text-uppercase">Corresponsales Ciudadanos</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-5">
+                        <div class="row mb-mobile">
+                            <div class="col-md-5 col-6">
                                 <div class="corresponsales-circle">
                                     <div class="corresponsales-circle__inner">
                                         <h2 class="color-black">600</h2>
@@ -160,7 +231,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-5 col-6">
                                 <div class="corresponsales-circle">
                                     <div class="corresponsales-circle__inner">
                                         <h2 class="color-black">+150</h2>
@@ -177,15 +248,100 @@
             </div>
         </section>
         <section class="pt-100 pb-100">
-            <div class="container text-center">
+            <div class="container text-center mb-50">
                 <h2 class="mb-30 color-black text-uppercase">Alianzas</h2>
                 <p class="fs-20">Son más de 600 líderes y lideresas expertos en diversos agendas claves que, movidos por su vocación de incidir, reputarse y participar en el debate público de su región, generan contenido multiformato a través de los medios que el grupo tiene en su región. Lo hacen en coordinación con editores y periodistas de nuestra red de medios.</p>
             </div>
             <div class="container">
-
+                <div class="alianzas mb-50">
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/Accionempresas.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/Asech.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/Avina.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/Avonni.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/centroUCpolíticas.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/CiudadaniaInteligente.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/Colunga.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/ComunidaddeOrg.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/CoveringClimateNow.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/dkms.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/espaciopúblico.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/FundaciónAltiplano.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/FundaciónLepe.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/FundacionVTR.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/g100.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/HayMujeres.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/HuellaLocal.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/Ingeniosas.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/itsnow.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/laconversacion.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/LevantemosChile.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/luksic.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/MovidosxChile.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/plagio.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/PojectSyndicate.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/sistemsB.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/TQHCH.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="col-12"><img class="img-fluid" src="img/alianzas/wwfchile.jpg"></div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="pt-100 pb-100 corresponsales equipo">
+        <section class="pt-100 pb-100 corresponsales">
             <div class="container">
                 <h2 class="mb-50 color-black text-uppercase">Equipo</h2>
                 <p class="fs-20"><b>Son más de 600 líderes y lideresas expertos en diversos agendas claves que, movidos por su vocación de incidir, reputarse y participar en el debate público de su región, generan contenido multiformato a través de los medios que el grupo tiene en su región. Lo hacen en coordinación con editores y periodistas de nuestra red de medios.</b></p>
@@ -206,7 +362,7 @@
                 </div>
             </div>
         </section>
-        <section class="bg-dark pt-50 pb-50">
+        <section class="bg-dark pt-50 pb-50 footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -214,21 +370,83 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10">
-                        
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL MORROCOTUDO</b><br>
+                                contacto@elmorrocotudo.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL QUEHAY DECIERTO</b><br>contacto@elquehaydecierto.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL RANCAHUASO</b><br>contacto@elrancahuaso.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">LA OPIÑIÓN</b><br>contacto@laopinion.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL REPUERTERO</b><br>ncarmona@mivoz.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL BOYALDÍA</b><br>contacto@elboyaldia.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL OBSERVATODO</b><br>contacto@elobservatodo.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL AMAULE</b><br>contacto@elamaule.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL NAVEGABLE</b><br>ncarmona@mivoz.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL MAGALLANEWS</b><br>contacto@elmagallanews.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL NORTERO</b><br>contacto@elnortero.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL MARTUTINO</b><br>contacto@elmartutino.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL CONCECUENTE</b><br>contacto@elconcecuente.cl</p>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-sm-6">
+                                <p class="text-white"><b class="color-blue">EL VACANUDO</b><br>contacto@elvacanudo.cl</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        
+                    <div class="col-md-3 pl-50 pl-mobile-0 border-left">
+                        <div class="row mb-30">
+                            <div class="col-md-12">
+                                <p class="text-white"><b class="color-green">CONTACTO COMERCIAL</b><br>comercial@mivoz.cl</p>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="text-white"><b class="color-green">CONTACTO EDITORIAL</b><br>editorial@mivoz.cl</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-4">
+                                <a href=""><img class="img-fluid" src="img/footer-fb.svg"></a>
+                            </div>
+                            <div class="col-md-4 col-4">
+                                <a href=""><img class="img-fluid" src="img/footer-insta.svg"></a>
+                            </div>
+                            <div class="col-md-4 col-4">
+                                <a href=""><img class="img-fluid" src="img/footer-tw.svg"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-dark pt-40 pb-40">
-            <div class="container text-center">
+        <section class="bg-dark pb-40">
+            <div class="container pt-40 text-center border-top">
                 <div class="row">
                     <div class="col-md-3">
-                        <img class="img-fluid" src="img/footer-logo.svg">
+                        <img class="img-fluid mobile-mb" src="img/footer-logo.svg">
                     </div>
                     <div class="col-md-9 d-flex align-items-end justify-content-end">
                         <p class="mb-0 text-white">MI VOZ © · Av Cristóbal Colon 4350, oficina 34, Las Condes, Santiago de Chile</p>
@@ -240,9 +458,63 @@
         <script src="js/vendor/jquery-3.3.1.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/slick.js"></script>
         <script src="js/main.js"></script>
         <script>
-            AOS.init();
+            
+            $(document).ready(function(){
+                $('.contenidos-destacados, .medios').slick({
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  dots: true,
+                  autoplay: true,
+                  autoplaySpeed: 2000,
+                  responsive: [
+                        
+                        {
+                          breakpoint: 600,
+                          settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                          }
+                        },
+                        {
+                          breakpoint: 480,
+                          settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          }
+                        }
+                    ]
+                });
+            });
+            $(document).ready(function(){
+                $('.alianzas').slick({
+                  slidesToShow: 6,
+                  slidesToScroll: 6,
+                  dots: true,
+                  autoplay: true,
+                  autoplaySpeed: 2000,
+                  responsive: [
+                        
+                        {
+                          breakpoint: 600,
+                          settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                          }
+                        },
+                        {
+                          breakpoint: 480,
+                          settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                          }
+                        }
+                    ]
+                });
+            });
         </script>
     </body>
 </html>
