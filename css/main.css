@@ -1046,6 +1046,12 @@ b{
         background-position: center;
     }
 }
+@media(min-width: 1400px){
+    section.pt-100.pb-100.equipo{
+        padding-bottom: 150px !important;
+        padding-top: 150px !important;
+    }
+}
 
 
 
