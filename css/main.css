@@ -536,7 +536,7 @@ body{
     max-width: 100px;
 }
 .corresponsales{
-    background-image: url(../img/corresponsales.jpg);
+    background-image: url(../img/corresponsales/mozaico_corresponsales_wide.png);
     background-size: cover;
     background-position: center;
 }
