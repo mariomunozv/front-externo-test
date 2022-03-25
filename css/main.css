@@ -541,7 +541,7 @@ body{
     background-position: center;
 }
 .equipo{
-    background-image: url(../img/equipo.png);
+    background-image: url(../img/equipo/equipo.png);
     background-size: cover;
     background-position: center;
 } 
@@ -1030,6 +1030,20 @@ b{
     }
     .banner-img {
         padding: 70px 0;
+    }
+}
+@media(max-width: 900px){
+    .equipo{
+        background-image: url(../img/equipo/equipo_cuadrado.png);
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media(max-width: 500px){
+    .equipo{
+        background-image: url(../img/equipo/equipo_cuadrado2.png);
+        background-size: cover;
+        background-position: center;
     }
 }
 
