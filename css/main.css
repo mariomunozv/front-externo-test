@@ -1038,6 +1038,9 @@ b{
         background-size: cover;
         background-position: center;
     }
+    .hide-mobile{
+        display: none;
+    }
 }
 @media(max-width: 500px){
     .equipo{
@@ -1045,11 +1048,30 @@ b{
         background-size: cover;
         background-position: center;
     }
+
 }
 @media(min-width: 1400px){
     section.pt-100.pb-100.equipo{
         padding-bottom: 150px !important;
         padding-top: 150px !important;
+    }
+}
+.mail-contact{
+    color: #fff;
+}
+.mail-contact:hover{
+    text-decoration: none;
+    color: #aaa;
+}
+
+@media(max-width: 767px){
+    .fb-icon{
+        margin-left: 25%;
+    }
+}
+@media(max-width: 575px){
+    .fb-icon{
+        margin-left: 10%;
     }
 }
 
