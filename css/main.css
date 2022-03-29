@@ -1032,6 +1032,13 @@ b{
         padding: 70px 0;
     }
 }
+@media(max-width: 1200px){
+    .corresponsales{
+        background-image: url(../img/corresponsales/mozaico_corresponsales2.png);
+        background-size: cover;
+        background-position: center;
+    }
+}
 @media(max-width: 900px){
     .equipo{
         background-image: url(../img/equipo/equipo_cuadrado.png);
@@ -1041,10 +1048,20 @@ b{
     .hide-mobile{
         display: none;
     }
+    .corresponsales{
+        background-image: url(../img/corresponsales/mozaico_corresponsales3.png);
+        background-size: cover;
+        background-position: center;
+    }
 }
 @media(max-width: 500px){
     .equipo{
         background-image: url(../img/equipo/equipo_cuadrado2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .corresponsales{
+        background-image: url(../img/corresponsales/mozaico_corresponsales4.png);
         background-size: cover;
         background-position: center;
     }
